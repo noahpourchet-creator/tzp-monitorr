@@ -68,6 +68,28 @@ def send_discord(title, description, color=0x00FF00):
             timeout=15
         )
 
+        if response.status_code == 429:
+            try:
+                retry_after = response.json().get("retry_after", 1)
+            except Exception:
+                retry_after = 1
+
+            print(
+                f"[DISCORD] Rate limit. "
+                f"Attente de {retry_after} seconde(s)..."
+            )
+
+            time.sleep(float(retry_after))
+
+            response = requests.post(
+                WEBHOOK_URL,
+                json=payload,
+                timeout=15
+            )
+
+        # Pause entre les notifications
+        time.sleep(1)
+
         if response.status_code not in (200, 204):
             print(
                 f"Erreur Discord : {response.status_code} "
@@ -76,6 +98,7 @@ def send_discord(title, description, color=0x00FF00):
 
     except Exception as e:
         print(f"Erreur envoi Discord : {e}")
+
 
 
 # ============================================================
