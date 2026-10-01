@@ -332,9 +332,9 @@ def main():
     print("=" * 60)
     print("TZP MONITOR")
     print("=" * 60)
-    print("Surveillance : 60 secondes")
+    print("Vérification GitHub Actions")
     print("Catégories :")
-    
+
     for category in CATEGORIES:
         print(f" - {category}")
 
@@ -342,39 +342,24 @@ def main():
 
     state = load_state()
 
-    while True:
+    for category, url in CATEGORIES.items():
 
-        start = time.time()
+        old_products = state.get(category)
 
-        for category, url in CATEGORIES.items():
-
-            old_products = state.get(category)
-
-            new_products = monitor_category(
-                category,
-                url,
-                old_products
-            )
-
-            if new_products is not None:
-                state[category] = new_products
-
-        save_state(state)
-
-        elapsed = time.time() - start
-        wait_time = max(1, CHECK_INTERVAL - elapsed)
-
-        print(
-            f"\n[{datetime.now().strftime('%H:%M:%S')}] "
-            f"Prochaine vérification dans "
-            f"{int(wait_time)} secondes..."
+        new_products = monitor_category(
+            category,
+            url,
+            old_products
         )
 
-        time.sleep(wait_time)
+        if new_products is not None:
+            state[category] = new_products
+
+    save_state(state)
+
+    print("\nVérification terminée.")
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\nArrêt du monitor.")
+    main()
+
