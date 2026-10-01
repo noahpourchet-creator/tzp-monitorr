@@ -106,7 +106,11 @@ def save_state(state):
 # ============================================================
 # PARSING TZP
 # ============================================================
+def clean_text(text):
+    return " ".join(text.split())
 
+
+def parse_products(html, category):
 def parse_products(html, category):
     soup = BeautifulSoup(html, "html.parser")
 
