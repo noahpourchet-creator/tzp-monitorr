@@ -202,10 +202,23 @@ def fetch_category(category, url):
 
         response.raise_for_status()
 
-        return parse_products(
+        print(
+            f"[HTTP] {category}: "
+            f"status={response.status_code}, "
+            f"taille={len(response.text)} caractères"
+        )
+
+        products = parse_products(
             response.text,
             category
         )
+
+        print(
+            f"[PARSE] {category}: "
+            f"{len(products)} produits trouvés"
+        )
+
+        return products
 
     except Exception as e:
         print(f"[ERREUR] {category}: {e}")
