@@ -119,6 +119,14 @@ def get_product_id(link):
 
 def parse_products(html, category):
     soup = BeautifulSoup(html, "html.parser")
+        print(f"[DEBUG] Liens trouvés : {len(soup.find_all('a'))}")
+
+    for link in soup.find_all("a", href=True)[:30]:
+        print(
+            f"[DEBUG] {link.get_text(' ', strip=True)[:80]} -> "
+            f"{link.get('href')}"
+        )
+
 
     products = {}
 
