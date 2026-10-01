@@ -111,7 +111,6 @@ def clean_text(text):
 
 
 def parse_products(html, category):
-def parse_products(html, category):
     soup = BeautifulSoup(html, "html.parser")
 
     products = {}
