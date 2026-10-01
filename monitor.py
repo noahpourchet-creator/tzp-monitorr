@@ -123,10 +123,39 @@ def parse_products(html, category):
     products = {}
 
     # Recherche des liens qui ressemblent à des fiches produits
-    product_candidates = []
+       # Recherche des éléments contenant des informations de prix
+    price_elements = soup.select(
+        "[itemprop='price'], "
+        ".price, "
+        ".product-price"
+    )
 
-    for link in soup.find_all("a", href=True):
-        href = link.get("href", "")
+    print(
+        f"[DEBUG] Éléments de prix trouvés : "
+        f"{len(price_elements)}"
+    )
+
+    for price_element in price_elements[:20]:
+        parent = price_element
+
+        # Remonte dans le HTML pour trouver le conteneur du produit
+        for _ in range(5):
+            if parent.parent:
+                parent = parent.parent
+
+        print(
+            "[DEBUG] BLOC PRIX :",
+            clean_text(parent.get_text(" ", strip=True))[:300]
+        )
+
+        for link in parent.find_all("a", href=True):
+            print(
+                "[DEBUG] LIEN DANS BLOC :",
+                clean_text(link.get_text(" ", strip=True))[:100],
+                "->",
+                link.get("href")
+            )
+
 
         # Les produits PrestaShop sont généralement des URLs
         # de premier niveau, contrairement aux pages /content/...
