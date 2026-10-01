@@ -358,6 +358,12 @@ def main():
     save_state(state)
 
     print("\nVérification terminée.")
+    
+send_discord(
+    "🧪 TEST DU MONITOR",
+    "Le monitor TZP fonctionne correctement et peut envoyer des notifications Discord.",
+    0x3498DB
+)
 
 
 if __name__ == "__main__":
