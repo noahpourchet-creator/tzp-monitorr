@@ -107,85 +107,94 @@ def save_state(state):
 # PARSING TZP
 # ============================================================
 
-def clean_text(text):
-    return " ".join(text.split())
-
-
-def get_product_id(link):
-    # L'URL complète permet d'avoir une clé stable
-    return link.split("?")[0].rstrip("/")
-
-
-
 def parse_products(html, category):
     soup = BeautifulSoup(html, "html.parser")
 
     products = {}
 
-    # Chaque élément de prix se trouve dans le bloc d'un produit.
-    price_elements = soup.select(
-        "[itemprop='price'], "
-        ".price, "
-        ".product-price"
-    )
+    # Chemin correspondant à chaque catégorie surveillée.
+    category_paths = {
+        "Précommandes Pokémon": "/precommande/",
+        "Pokémon en Français": "/coffrets-etb-display-francais/",
+        "One Piece": "/one-piece/",
+    }
 
-    print(
-        f"[PARSE] Éléments de prix trouvés : "
-        f"{len(price_elements)}"
-    )
+    expected_path = category_paths.get(category)
 
-    for price_element in price_elements:
+    # Recherche directe des fiches produits.
+    for link in soup.find_all("a", href=True):
 
-        # On remonte jusqu'au conteneur du produit.
-        block = price_element
+        href = link.get("href", "")
 
-        for _ in range(5):
-            if block.parent:
-                block = block.parent
-
-        # Cherche les liens du produit dans ce bloc.
-        product_link = None
-
-        for link in block.find_all("a", href=True):
-
-            href = link.get("href", "")
-
-            # On cherche une vraie fiche produit.
-            if ".html" in href:
-                product_link = link
-                break
-
-        if not product_link:
+        # On garde uniquement les URLs des produits
+        # de la catégorie actuellement surveillée.
+        if expected_path not in href:
             continue
 
-        href = product_link.get("href")
+        if ".html" not in href:
+            continue
 
+        # Nom du produit
         name = clean_text(
-            product_link.get_text(" ", strip=True)
+            link.get_text(" ", strip=True)
         )
+
+        if not name:
+            # Certains liens sont uniquement des images.
+            # On cherche alors le titre dans le bloc parent.
+            parent = link.parent
+
+            if parent:
+                name_element = parent.select_one(
+                    ".product-title, "
+                    "h2, "
+                    "h3"
+                )
+
+                if name_element:
+                    name = clean_text(
+                        name_element.get_text(" ", strip=True)
+                    )
 
         if not name:
             continue
 
-        # Convertit les URLs relatives en URLs complètes.
+        # URL complète
         if href.startswith("/"):
             href = "https://www.tzp.fr" + href
         elif href.startswith("//"):
             href = "https:" + href
 
-        # Prix
-        price = clean_text(
-            price_element.get_text(" ", strip=True)
-        )
+        # On remonte jusqu'à trouver un bloc contenant un prix.
+        block = link
 
-        if not price:
-            price = "Prix indisponible"
+        price = "Prix indisponible"
+        block_text = ""
 
-        # Détection du stock.
-        block_text = clean_text(
-            block.get_text(" ", strip=True)
-        ).lower()
+        for _ in range(6):
 
+            if not block.parent:
+                break
+
+            block = block.parent
+
+            block_text = clean_text(
+                block.get_text(" ", strip=True)
+            ).lower()
+
+            price_element = block.select_one(
+                "[itemprop='price'], "
+                ".price, "
+                ".product-price"
+            )
+
+            if price_element:
+                price = clean_text(
+                    price_element.get_text(" ", strip=True)
+                )
+                break
+
+        # Détection du stock
         out_of_stock = (
             "rupture de stock" in block_text
             or "épuisé" in block_text
@@ -196,7 +205,7 @@ def parse_products(html, category):
 
         product_id = get_product_id(href)
 
-        # Évite les doublons.
+        # Évite les doublons
         if product_id in products:
             continue
 
@@ -214,6 +223,7 @@ def parse_products(html, category):
     )
 
     return products
+
 
 # ============================================================
 # REQUETE TZP
