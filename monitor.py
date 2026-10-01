@@ -110,7 +110,12 @@ def clean_text(text):
     return " ".join(text.split())
 
 
+def get_product_id(link):
+    return link.split("?")[0].rstrip("/")
+
+
 def parse_products(html, category):
+
     soup = BeautifulSoup(html, "html.parser")
 
     products = {}
