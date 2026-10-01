@@ -116,76 +116,7 @@ def get_product_id(link):
     return link.split("?")[0].rstrip("/")
 
 
-def parse_products(html, category):
-    soup = BeautifulSoup(html, "html.parser")
-
-    products = {}
-
-    # PrestaShop utilise généralement ces blocs pour les produits.
-    product_blocks = soup.select(
-        "article.product-miniature, "
-        ".js-product-miniature, "
-        ".product-miniature"
-    )
-
-    for block in product_blocks:
-        link_element = block.select_one(
-            "a.product-thumbnail, "
-            "h2.product-title a, "
-            ".product-title a"
-        )
-
-        if not link_element:
-            continue
-
-        name = clean_text(link_element.get_text(" ", strip=True))
-        href = link_element.get("href")
-
-        if not name or not href:
-            continue
-
-        if href.startswith("/"):
-            href = "https://www.tzp.fr" + href
-        elif href.startswith("//"):
-            href = "https:" + href
-
-        # Prix
-        price_element = block.select_one(
-            ".price, "
-            ".product-price, "
-            "[itemprop='price']"
-        )
-
-        price = (
-            clean_text(price_element.get_text(" ", strip=True))
-            if price_element
-            else "Prix indisponible"
-        )
-
-        # Détection du stock
-        block_text = clean_text(
-            block.get_text(" ", strip=True)
-        ).lower()
-
-        out_of_stock = (
-            "rupture de stock" in block_text
-            or "épuisé" in block_text
-            or "indisponible" in block_text
-        )
-
-        available = not out_of_stock
-
-        product_id = get_product_id(href)
-
-        products[product_id] = {
-            "name": name,
-            "url": href,
-            "price": price,
-            "available": available,
-            "category": category,
-        }
-
-    return products
+v
 
 
 # ============================================================
