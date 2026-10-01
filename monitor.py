@@ -120,14 +120,22 @@ def get_product_id(link):
 def parse_products(html, category):
     soup = BeautifulSoup(html, "html.parser")
 
-    print(f"[DEBUG] Liens trouvés : {len(soup.find_all('a'))}")
+    products = {}
 
-        product_candidates = []
+    # Recherche des liens qui ressemblent à des fiches produits
+    product_candidates = []
 
     for link in soup.find_all("a", href=True):
         href = link.get("href", "")
 
-        if href.startswith("/") and href.count("/") == 1:
+        # Les produits PrestaShop sont généralement des URLs
+        # de premier niveau, contrairement aux pages /content/...
+        if (
+            href.startswith("https://www.tzp.fr/")
+            and "/content/" not in href
+            and "/connexion" not in href
+            and href != "https://www.tzp.fr/"
+        ):
             product_candidates.append(link)
 
     print(
@@ -142,82 +150,8 @@ def parse_products(html, category):
             f"{link.get('href')}"
         )
 
-        )
-
-    products = {}
-
-    product_blocks = soup.select(
-        "article.product-miniature, "
-        ".js-product-miniature, "
-        ".product-miniature, "
-        ".product"
-    )
-
-    for block in product_blocks:
-
-        link_element = block.select_one(
-            "a.product-thumbnail, "
-            "h2.product-title a, "
-            ".product-title a, "
-            "a[href*='.html']"
-        )
-
-        if not link_element:
-            continue
-
-        href = link_element.get("href")
-
-        if not href:
-            continue
-
-        name = clean_text(
-            link_element.get_text(" ", strip=True)
-        )
-
-        if not name or len(name) < 3:
-            continue
-
-        if href.startswith("/"):
-            href = "https://www.tzp.fr" + href
-        elif href.startswith("//"):
-            href = "https:" + href
-
-        price_element = block.select_one(
-            ".price, "
-            ".product-price, "
-            "[itemprop='price'], "
-            "[data-price]"
-        )
-
-        price = (
-            clean_text(price_element.get_text(" ", strip=True))
-            if price_element
-            else "Prix indisponible"
-        )
-
-        block_text = clean_text(
-            block.get_text(" ", strip=True)
-        ).lower()
-
-        out_of_stock = (
-            "rupture de stock" in block_text
-            or "épuisé" in block_text
-            or "indisponible" in block_text
-        )
-
-        product_id = get_product_id(href)
-
-        if product_id in products:
-            continue
-
-        products[product_id] = {
-            "name": name,
-            "url": href,
-            "price": price,
-            "available": not out_of_stock,
-            "category": category,
-        }
-
+    # Pour l'instant, on ne valide encore aucun produit.
+    # Cette étape sert uniquement à identifier leur structure.
     return products
 
 # ============================================================
