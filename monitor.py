@@ -122,10 +122,26 @@ def parse_products(html, category):
 
     print(f"[DEBUG] Liens trouvés : {len(soup.find_all('a'))}")
 
-    for link in soup.find_all("a", href=True)[:30]:
+        product_candidates = []
+
+    for link in soup.find_all("a", href=True):
+        href = link.get("href", "")
+
+        if href.startswith("/") and href.count("/") == 1:
+            product_candidates.append(link)
+
+    print(
+        f"[DEBUG] Liens candidats produits : "
+        f"{len(product_candidates)}"
+    )
+
+    for link in product_candidates[:30]:
         print(
-            f"[DEBUG] {link.get_text(' ', strip=True)[:80]} -> "
+            f"[DEBUG] PRODUIT ? "
+            f"{link.get_text(' ', strip=True)[:100]} -> "
             f"{link.get('href')}"
+        )
+
         )
 
     products = {}
