@@ -122,8 +122,7 @@ def parse_products(html, category):
 
     products = {}
 
-    # Recherche des liens qui ressemblent à des fiches produits
-       # Recherche des éléments contenant des informations de prix
+    # Chaque élément de prix se trouve dans le bloc d'un produit.
     price_elements = soup.select(
         "[itemprop='price'], "
         ".price, "
@@ -131,56 +130,89 @@ def parse_products(html, category):
     )
 
     print(
-        f"[DEBUG] Éléments de prix trouvés : "
+        f"[PARSE] Éléments de prix trouvés : "
         f"{len(price_elements)}"
     )
 
-    for price_element in price_elements[:20]:
-        parent = price_element
+    for price_element in price_elements:
 
-        # Remonte dans le HTML pour trouver le conteneur du produit
+        # On remonte jusqu'au conteneur du produit.
+        block = price_element
+
         for _ in range(5):
-            if parent.parent:
-                parent = parent.parent
+            if block.parent:
+                block = block.parent
 
-        print(
-            "[DEBUG] BLOC PRIX :",
-            clean_text(parent.get_text(" ", strip=True))[:300]
+        # Cherche les liens du produit dans ce bloc.
+        product_link = None
+
+        for link in block.find_all("a", href=True):
+
+            href = link.get("href", "")
+
+            # On cherche une vraie fiche produit.
+            if ".html" in href:
+                product_link = link
+                break
+
+        if not product_link:
+            continue
+
+        href = product_link.get("href")
+
+        name = clean_text(
+            product_link.get_text(" ", strip=True)
         )
 
-        for link in parent.find_all("a", href=True):
-            print(
-                "[DEBUG] LIEN DANS BLOC :",
-                clean_text(link.get_text(" ", strip=True))[:100],
-                "->",
-                link.get("href")
-            )
+        if not name:
+            continue
 
+        # Convertit les URLs relatives en URLs complètes.
+        if href.startswith("/"):
+            href = "https://www.tzp.fr" + href
+        elif href.startswith("//"):
+            href = "https:" + href
 
-        # Les produits PrestaShop sont généralement des URLs
-        # de premier niveau, contrairement aux pages /content/...
-        if (
-            href.startswith("https://www.tzp.fr/")
-            and "/content/" not in href
-            and "/connexion" not in href
-            and href != "https://www.tzp.fr/"
-        ):
-            product_candidates.append(link)
+        # Prix
+        price = clean_text(
+            price_element.get_text(" ", strip=True)
+        )
+
+        if not price:
+            price = "Prix indisponible"
+
+        # Détection du stock.
+        block_text = clean_text(
+            block.get_text(" ", strip=True)
+        ).lower()
+
+        out_of_stock = (
+            "rupture de stock" in block_text
+            or "épuisé" in block_text
+            or "indisponible" in block_text
+        )
+
+        available = not out_of_stock
+
+        product_id = get_product_id(href)
+
+        # Évite les doublons.
+        if product_id in products:
+            continue
+
+        products[product_id] = {
+            "name": name,
+            "url": href,
+            "price": price,
+            "available": available,
+            "category": category,
+        }
 
     print(
-        f"[DEBUG] Liens candidats produits : "
-        f"{len(product_candidates)}"
+        f"[PARSE] {category}: "
+        f"{len(products)} produits trouvés"
     )
 
-    for link in product_candidates[:30]:
-        print(
-            f"[DEBUG] PRODUIT ? "
-            f"{link.get_text(' ', strip=True)[:100]} -> "
-            f"{link.get('href')}"
-        )
-
-    # Pour l'instant, on ne valide encore aucun produit.
-    # Cette étape sert uniquement à identifier leur structure.
     return products
 
 # ============================================================
