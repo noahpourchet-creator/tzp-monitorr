@@ -441,7 +441,7 @@ def main():
     print("\nVérification terminée.")
     
 
-)
+
 
 
 if __name__ == "__main__":
