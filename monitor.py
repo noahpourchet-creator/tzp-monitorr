@@ -440,19 +440,13 @@ def main():
 
     print("\nVérification terminée.")
     
-send_discord(
-    "🧪 TEST DU MONITOR",
-    "Le monitor TZP fonctionne correctement et peut envoyer des notifications Discord.",
-    0x3498DB
+
 )
 
 
 if __name__ == "__main__":
 
-    send_discord(
-        "🧪 TEST DU MONITOR",
-        "Le monitor TZP fonctionne correctement et peut envoyer des notifications Discord.",
-        0x3498DB
+
     )
 
     main()
