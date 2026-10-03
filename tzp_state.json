@@ -273,20 +273,6 @@
         "available": true,
         "category": "Précommandes Pokémon"
       },
-      "https://www.tzp.fr/precommande/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html": {
-        "name": "Pokémon ME06 – Règne Delta – Display 36 Boosters – Français",
-        "url": "https://www.tzp.fr/precommande/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html",
-        "price": "219,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html": {
-        "name": "Pokémon ME06 – Règne Delta – Coffret Dresseur d’Élite – ETB – Français",
-        "url": "https://www.tzp.fr/precommande/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html",
-        "price": "69,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3515-pack-pokemon-30-ans-amphinobi-bol-2-verres-aleatoire.html": {
         "name": "Pack Pokémon 30ᵉ Anniversaire – Coffret Amphinobi-ex + Bol ou 2 Verres Pokémon Aléatoires",
         "url": "https://www.tzp.fr/precommande/3515-pack-pokemon-30-ans-amphinobi-bol-2-verres-aleatoire.html",
@@ -560,7 +546,8 @@
       "category": "Précommandes Pokémon",
       "price": "69,99 €",
       "available": false,
-      "add_to_cart": true
+      "add_to_cart": true,
+      "stock_known": true
     },
     "display_me06": {
       "name": "Pokémon ME06 – Règne Delta – Display 36 Boosters – Français",
@@ -569,7 +556,8 @@
       "category": "Précommandes Pokémon",
       "price": "219,99 €",
       "available": false,
-      "add_to_cart": true
+      "add_to_cart": true,
+      "stock_known": true
     }
   }
 }
