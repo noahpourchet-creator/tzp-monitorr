@@ -266,6 +266,20 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3542-pack-pokemon-30-ans-2-pokebox-boite-cookies.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox + Boîte à Cookies Pokémon",
+        "url": "https://www.tzp.fr/precommande/3542-pack-pokemon-30-ans-2-pokebox-boite-cookies.html",
+        "price": "99,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3541-pack-pokemon-30-ans-2-pokebox-theiere-carapuce.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox + Théière Carapuce",
+        "url": "https://www.tzp.fr/precommande/3541-pack-pokemon-30-ans-2-pokebox-theiere-carapuce.html",
+        "price": "99,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais.html": {
         "name": "Pokémon ME06 – Règne Delta – Tripack 3 Boosters + Promo Otaria – Français",
         "url": "https://www.tzp.fr/precommande/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais.html",
