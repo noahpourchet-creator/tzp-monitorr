@@ -497,7 +497,7 @@
       "category": "Précommandes Pokémon",
       "price": "69,99 €",
       "available": false,
-      "add_to_cart": true,
+      "add_to_cart": false,
       "stock_known": true
     },
     "display_me06": {
