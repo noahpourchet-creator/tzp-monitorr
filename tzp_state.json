@@ -266,6 +266,13 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3561-pack-pokemon-30-ans-bundle-classeur.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – Bundle 6 Boosters + Classeur A5 Pokémon Aléatoire",
+        "url": "https://www.tzp.fr/precommande/3561-pack-pokemon-30-ans-bundle-classeur.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3542-pack-pokemon-30-ans-2-pokebox-boite-cookies.html": {
         "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox + Boîte à Cookies Pokémon",
         "url": "https://www.tzp.fr/precommande/3542-pack-pokemon-30-ans-2-pokebox-boite-cookies.html",
@@ -497,7 +504,7 @@
       "category": "Précommandes Pokémon",
       "price": "69,99 €",
       "available": false,
-      "add_to_cart": false,
+      "add_to_cart": true,
       "stock_known": true
     },
     "display_me06": {
