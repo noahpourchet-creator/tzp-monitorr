@@ -266,27 +266,6 @@
   },
   "categories": {
     "Précommandes Pokémon": {
-      "https://www.tzp.fr/precommande/3561-pack-pokemon-30-ans-bundle-classeur.html": {
-        "name": "Pack Pokémon 30ᵉ Anniversaire – Bundle 6 Boosters + Classeur A5 Pokémon Aléatoire",
-        "url": "https://www.tzp.fr/precommande/3561-pack-pokemon-30-ans-bundle-classeur.html",
-        "price": "79,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3542-pack-pokemon-30-ans-2-pokebox-boite-cookies.html": {
-        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox + Boîte à Cookies Pokémon",
-        "url": "https://www.tzp.fr/precommande/3542-pack-pokemon-30-ans-2-pokebox-boite-cookies.html",
-        "price": "99,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3541-pack-pokemon-30-ans-2-pokebox-theiere-carapuce.html": {
-        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox + Théière Carapuce",
-        "url": "https://www.tzp.fr/precommande/3541-pack-pokemon-30-ans-2-pokebox-theiere-carapuce.html",
-        "price": "99,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais.html": {
         "name": "Pokémon ME06 – Règne Delta – Tripack 3 Boosters + Promo Otaria – Français",
         "url": "https://www.tzp.fr/precommande/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais.html",
@@ -294,10 +273,10 @@
         "available": true,
         "category": "Précommandes Pokémon"
       },
-      "https://www.tzp.fr/precommande/3513-pack-pokemon-30-ans-2-pokebox-nymphali-amphinobi-peluche.html": {
-        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox Nymphali & Amphinobi + Peluche 20 cm",
-        "url": "https://www.tzp.fr/precommande/3513-pack-pokemon-30-ans-2-pokebox-nymphali-amphinobi-peluche.html",
-        "price": "79,99 €",
+      "https://www.tzp.fr/precommande/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – Collection Classeur + Peluche Pokémon 30 cm Aléatoire",
+        "url": "https://www.tzp.fr/precommande/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html",
+        "price": "89,99 €",
         "available": true,
         "category": "Précommandes Pokémon"
       },
@@ -331,6 +310,20 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3561-pack-pokemon-30-ans-bundle-classeur.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – Bundle 6 Boosters + Classeur A5 Pokémon Aléatoire",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3561-pack-pokemon-30-ans-bundle-classeur.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3513-pack-pokemon-30-ans-2-pokebox-nymphali-amphinobi-peluche.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox Nymphali & Amphinobi + Peluche 20 cm",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3513-pack-pokemon-30-ans-2-pokebox-nymphali-amphinobi-peluche.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3476-pack-pokemon-30-ans-10-mini-tins-peluche-pikachu.html": {
         "name": "Pack Pokémon 30ᵉ Anniversaire – Display 10 Mini Tins + Peluche Pikachu 30 cm",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3476-pack-pokemon-30-ans-10-mini-tins-peluche-pikachu.html",
@@ -518,7 +511,7 @@
       "category": "Précommandes Pokémon",
       "price": "69,99 €",
       "available": false,
-      "add_to_cart": false,
+      "add_to_cart": true,
       "stock_known": true
     },
     "display_me06": {
