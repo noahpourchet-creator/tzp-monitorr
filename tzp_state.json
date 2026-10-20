@@ -266,6 +266,20 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3704-pack-pokemon-etb-30-ans-lego-monkey-palace.html": {
+        "name": "Pack Pokémon ETB 30 Ans + Jeu LEGO Monkey Palace",
+        "url": "https://www.tzp.fr/precommande/3704-pack-pokemon-etb-30-ans-lego-monkey-palace.html",
+        "price": "149,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3703-pack-etb-pokemon-30-ans-brick-like-this.html": {
+        "name": "Pack Pokémon 30 Ans – ETB 30e Anniversaire + Brick Like This",
+        "url": "https://www.tzp.fr/precommande/3703-pack-etb-pokemon-30-ans-brick-like-this.html",
+        "price": "149,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3663-pack-pokemon-30e-anniversaire-classeur-strip-bags-toploader.html": {
         "name": "Pack Pokémon 30e Anniversaire – Collection Classeur + Strip Bags pour Toploader x100",
         "url": "https://www.tzp.fr/precommande/3663-pack-pokemon-30e-anniversaire-classeur-strip-bags-toploader.html",
