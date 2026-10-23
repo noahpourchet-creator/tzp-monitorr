@@ -266,6 +266,13 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3784-pokemon-coffret-metamorph-30-ans-verrre.html": {
+        "name": "Pokémon Coffret Métamorph 30 Ans + Verre Pokémon",
+        "url": "https://www.tzp.fr/precommande/3784-pokemon-coffret-metamorph-30-ans-verrre.html",
+        "price": "109,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3783-pokemon-coffret-metamorph-30-ans-tasse-pikachu.html": {
         "name": "Pokémon Coffret Métamorph 30 Ans + Tasse Pikachu",
         "url": "https://www.tzp.fr/precommande/3783-pokemon-coffret-metamorph-30-ans-tasse-pikachu.html",
@@ -338,6 +345,13 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3786-pokemon-30-anniversaire-duo-pack-Spicy.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Spicy",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3786-pokemon-30-anniversaire-duo-pack-Spicy.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html": {
         "name": "Pack Pokémon 30ᵉ Anniversaire – Collection Classeur + Peluche Pokémon 30 cm Aléatoire",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html",
@@ -426,6 +440,13 @@
         "name": "ETB 30e Anniversaire + Display Chaos Ascendant",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3379-pokemon-etb-30-ans-display-chaos-ascendant.html",
         "price": "299,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3320-pokemon-30-anniversaire-duo-pack-ninja-academy.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Ninja Academy",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3320-pokemon-30-anniversaire-duo-pack-ninja-academy.html",
+        "price": "25,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
