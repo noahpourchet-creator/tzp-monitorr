@@ -266,6 +266,13 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html": {
+        "name": "Pack Pokémon 30 Ans – UPC Noctali-ex + Coffret Mi-Automne Chinois 2026",
+        "url": "https://www.tzp.fr/precommande/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html",
+        "price": "389,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3791-pokemon-coffret-metamorph-30-ans-kikicri.html": {
         "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri?",
         "url": "https://www.tzp.fr/precommande/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
