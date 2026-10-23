@@ -266,13 +266,6 @@
   },
   "categories": {
     "Précommandes Pokémon": {
-      "https://www.tzp.fr/precommande/3784-pokemon-coffret-metamorph-30-ans-verrre.html": {
-        "name": "Pokémon Coffret Métamorph 30 Ans + Verre Pokémon",
-        "url": "https://www.tzp.fr/precommande/3784-pokemon-coffret-metamorph-30-ans-verrre.html",
-        "price": "109,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3783-pokemon-coffret-metamorph-30-ans-tasse-pikachu.html": {
         "name": "Pokémon Coffret Métamorph 30 Ans + Tasse Pikachu",
         "url": "https://www.tzp.fr/precommande/3783-pokemon-coffret-metamorph-30-ans-tasse-pikachu.html",
@@ -345,9 +338,44 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3790-pokemon-30-anniversaire-duo-pack-High-Risk.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + High Risk",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3790-pokemon-30-anniversaire-duo-pack-High-Risk.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3789-pokemon-30-anniversaire-duo-pack-heros-a-louer.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Héros à louer",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3789-pokemon-30-anniversaire-duo-pack-heros-a-louer.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3788-pokemon-30-anniversaire-duo-pack-Cheese-Master.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Cheese Master",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3788-pokemon-30-anniversaire-duo-pack-Cheese-Master.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3787-pokemon-30-anniversaire-duo-pack-Deadlies.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Deadlies",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3787-pokemon-30-anniversaire-duo-pack-Deadlies.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3786-pokemon-30-anniversaire-duo-pack-Spicy.html": {
         "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Spicy",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3786-pokemon-30-anniversaire-duo-pack-Spicy.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3785-pokemon-30-anniversaire-duo-pack-Fifty.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Fifty",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3785-pokemon-30-anniversaire-duo-pack-Fifty.html",
         "price": "25,99 €",
         "available": true,
         "category": "Pokémon en Français"
