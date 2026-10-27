@@ -266,6 +266,13 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html": {
+        "name": "Bundle de 6 Boosters Pokémon Méga-Évolution Règne Delta ME06 – Français",
+        "url": "https://www.tzp.fr/precommande/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html",
+        "price": "39,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html": {
         "name": "Pack Pokémon 30 Ans – UPC Noctali-ex + Coffret Mi-Automne Chinois 2026",
         "url": "https://www.tzp.fr/precommande/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html",
