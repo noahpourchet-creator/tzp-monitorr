@@ -329,13 +329,6 @@
         "available": true,
         "category": "Précommandes Pokémon"
       },
-      "https://www.tzp.fr/precommande/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais.html": {
-        "name": "Pokémon ME06 – Règne Delta – Tripack 3 Boosters + Promo Otaria – Français",
-        "url": "https://www.tzp.fr/precommande/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais.html",
-        "price": "19,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3342-pokemon-30-anniversaire-2-tripacks-pop-pikachu.html": {
         "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Pop Pikachu",
         "url": "https://www.tzp.fr/precommande/3342-pokemon-30-anniversaire-2-tripacks-pop-pikachu.html",
@@ -352,6 +345,27 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html": {
+        "name": "Pokémon ME06 – Règne Delta – Coffret Dresseur d’Élite – ETB – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html",
+        "price": "69,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html": {
+        "name": "Pokémon ME06 – Règne Delta – Display 36 Boosters – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html",
+        "price": "219,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais-0196214144071.html": {
+        "name": "Pokémon ME06 – Règne Delta – Tripack 3 Boosters + Promo Otaria – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3529-pokemon-me06-regne-delta-tripack-3-boosters-otaria-francais-0196214144071.html",
+        "price": "19,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3320-pokemon-30-anniversaire-duo-pack-ninja-academy.html": {
         "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Ninja Academy",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3320-pokemon-30-anniversaire-duo-pack-ninja-academy.html",
