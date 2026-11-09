@@ -266,27 +266,6 @@
   },
   "categories": {
     "Précommandes Pokémon": {
-      "https://www.tzp.fr/precommande/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html": {
-        "name": "Bundle de 6 Boosters Pokémon Méga-Évolution Règne Delta ME06 – Français",
-        "url": "https://www.tzp.fr/precommande/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html",
-        "price": "49,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html": {
-        "name": "Pack Pokémon 30 Ans – UPC Noctali-ex + Coffret Mi-Automne Chinois 2026",
-        "url": "https://www.tzp.fr/precommande/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html",
-        "price": "389,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3791-pokemon-coffret-metamorph-30-ans-kikicri.html": {
-        "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri?",
-        "url": "https://www.tzp.fr/precommande/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
-        "price": "114,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html": {
         "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
         "url": "https://www.tzp.fr/precommande/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
@@ -294,50 +273,8 @@
         "available": true,
         "category": "Précommandes Pokémon"
       },
-      "https://www.tzp.fr/precommande/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html": {
-        "name": "Pokémon Coffret Métamorph 30 Ans + Figurine Select 11 cm Aléatoire",
-        "url": "https://www.tzp.fr/precommande/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html",
-        "price": "119,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3774-pack-pokemon-ultra-premium-noctali-30-ans-funsime-prime.html": {
-        "name": "Pokémon Ultra-Premium Noctali-ex 30 Ans + Figurine Funsime Prime 20 cm Aléatoire",
-        "url": "https://www.tzp.fr/precommande/3774-pack-pokemon-ultra-premium-noctali-30-ans-funsime-prime.html",
-        "price": "399,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html": {
-        "name": "Pokémon Coffret Figurine Mew 30 Ans + Coin Set Évoli Chinois",
-        "url": "https://www.tzp.fr/precommande/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html",
-        "price": "79,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3767-pack-pokemon-figurine-mew-30-ans-dream-drawing-chinois.html": {
-        "name": "Pokémon Coffret Figurine Mew 30 Ans + Dream Drawing 30th Chinois",
-        "url": "https://www.tzp.fr/precommande/3767-pack-pokemon-figurine-mew-30-ans-dream-drawing-chinois.html",
-        "price": "89,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3765-pack-pokemon-mew-30-ans-lego-monkey-palace.html": {
-        "name": "Pokémon Coffret Figurine Mew 30 Ans + LEGO Monkey Palace",
-        "url": "https://www.tzp.fr/precommande/3765-pack-pokemon-mew-30-ans-lego-monkey-palace.html",
-        "price": "89,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3342-pokemon-30-anniversaire-2-tripacks-pop-pikachu.html": {
-        "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Pop Pikachu",
-        "url": "https://www.tzp.fr/precommande/3342-pokemon-30-anniversaire-2-tripacks-pop-pikachu.html",
-        "price": "59,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html": {
-        "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Maquette Pokémon",
+        "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Jeu Dingo",
         "url": "https://www.tzp.fr/precommande/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html",
         "price": "59,99 €",
         "available": true,
@@ -345,6 +282,55 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html": {
+        "name": "Pack Pokémon 30 Ans – UPC Noctali-ex + Coffret Mi-Automne Chinois 2026",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html",
+        "price": "389,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html": {
+        "name": "Bundle de 6 Boosters Pokémon Méga-Évolution Règne Delta ME06 – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html",
+        "price": "49,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3767-pack-pokemon-figurine-mew-30-ans-dream-drawing-chinois.html": {
+        "name": "Pokémon Coffret Figurine Mew 30 Ans + Dream Drawing 30th Chinois",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3767-pack-pokemon-figurine-mew-30-ans-dream-drawing-chinois.html",
+        "price": "89,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html": {
+        "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri?",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
+        "price": "114,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html": {
+        "name": "Pokémon Coffret Métamorph 30 Ans + Figurine Select 11 cm Aléatoire",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html",
+        "price": "119,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3765-pack-pokemon-mew-30-ans-lego-monkey-palace.html": {
+        "name": "Pokémon Coffret Figurine Mew 30 Ans + LEGO Monkey Palace",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3765-pack-pokemon-mew-30-ans-lego-monkey-palace.html",
+        "price": "89,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html": {
+        "name": "Pokémon Coffret Figurine Mew 30 Ans + Coin Set Évoli Chinois",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html": {
         "name": "Pokémon ME06 – Règne Delta – Coffret Dresseur d’Élite – ETB – Français",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html",
