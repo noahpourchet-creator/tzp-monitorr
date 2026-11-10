@@ -282,6 +282,13 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3861-pokemon-collection-creation-de-deck-miaouss-ex-fr-196214156630.html": {
+        "name": "Pokémon – Collection Création de Deck Miaouss-ex – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3861-pokemon-collection-creation-de-deck-miaouss-ex-fr-196214156630.html",
+        "price": "11,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html": {
         "name": "Pack Pokémon 30 Ans – UPC Noctali-ex + Coffret Mi-Automne Chinois 2026",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html",
@@ -304,7 +311,7 @@
         "category": "Pokémon en Français"
       },
       "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html": {
-        "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri?",
+        "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri? ou Dobble",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
         "price": "114,99 €",
         "available": true,
