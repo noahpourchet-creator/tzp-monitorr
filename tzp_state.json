@@ -282,6 +282,13 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3869-pokemon-30-ans-pack-upc-noctali-metamorph-pop-geante-30cm.html": {
+        "name": "Pack Pokémon 30 Ans – UPC Noctali, Métamorph et POP! | TZP",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3869-pokemon-30-ans-pack-upc-noctali-metamorph-pop-geante-30cm.html",
+        "price": "529,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3861-pokemon-collection-creation-de-deck-miaouss-ex-fr-196214156630.html": {
         "name": "Pokémon – Collection Création de Deck Miaouss-ex – Français",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3861-pokemon-collection-creation-de-deck-miaouss-ex-fr-196214156630.html",
@@ -348,7 +355,7 @@
       "https://www.tzp.fr/coffrets-etb-display-francais/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html": {
         "name": "Pokémon ME06 – Règne Delta – Display 36 Boosters – Français",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html",
-        "price": "219,99 €",
+        "price": "229,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
@@ -526,7 +533,7 @@
       "url": "https://www.tzp.fr/precommande/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html",
       "ean": "0196214144613",
       "category": "Précommandes Pokémon",
-      "price": "219,99 €",
+      "price": "229,99 €",
       "available": false,
       "add_to_cart": true,
       "stock_known": true
