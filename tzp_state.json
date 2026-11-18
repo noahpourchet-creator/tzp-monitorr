@@ -265,9 +265,208 @@
     }
   },
   "categories": {
-    "Précommandes Pokémon": {},
-    "Pokémon en Français": {},
-    "One Piece": {}
+    "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html": {
+        "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
+        "url": "https://www.tzp.fr/precommande/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html": {
+        "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Jeu Dingo",
+        "url": "https://www.tzp.fr/precommande/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html",
+        "price": "59,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      }
+    },
+    "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html": {
+        "name": "Pokémon 30 Ans – Bundle 6 Boosters + 1 Jeu Dingo en Boîte Métal",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3861-pokemon-collection-creation-de-deck-miaouss-ex-fr-196214156630.html": {
+        "name": "Pokémon – Collection Création de Deck Miaouss-ex – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3861-pokemon-collection-creation-de-deck-miaouss-ex-fr-196214156630.html",
+        "price": "11,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html": {
+        "name": "Pack Pokémon 30 Ans – UPC Noctali-ex + Coffret Mi-Automne Chinois 2026",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3792-pack-pokemon-30-ans-upc-noctali-coffret-mi-automne-chinois-2026.html",
+        "price": "389,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html": {
+        "name": "Bundle de 6 Boosters Pokémon Méga-Évolution Règne Delta ME06 – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3796-bundle-6-boosters-pokemon-regne-delta-me06-francais.html",
+        "price": "49,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3767-pack-pokemon-figurine-mew-30-ans-dream-drawing-chinois.html": {
+        "name": "Pokémon Coffret Figurine Mew 30 Ans + Dream Drawing 30th Chinois",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3767-pack-pokemon-figurine-mew-30-ans-dream-drawing-chinois.html",
+        "price": "89,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html": {
+        "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri? ou Dobble",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
+        "price": "114,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html": {
+        "name": "Pokémon Coffret Métamorph 30 Ans + Figurine Select 11 cm Aléatoire",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html",
+        "price": "119,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html": {
+        "name": "Pokémon Coffret Figurine Mew 30 Ans + Coin Set Évoli Chinois",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html": {
+        "name": "Pokémon ME06 – Règne Delta – Coffret Dresseur d’Élite – ETB – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html",
+        "price": "69,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html": {
+        "name": "Pokémon ME06 – Règne Delta – Display 36 Boosters – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html",
+        "price": "229,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3320-pokemon-30-anniversaire-duo-pack-ninja-academy.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Duo Pack + Ninja Academy",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3320-pokemon-30-anniversaire-duo-pack-ninja-academy.html",
+        "price": "25,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – Collection Classeur + Peluche Pokémon 30 cm Aléatoire",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html",
+        "price": "89,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3561-pack-pokemon-30-ans-bundle-classeur.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – Bundle 6 Boosters + Classeur A5 Pokémon Aléatoire",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3561-pack-pokemon-30-ans-bundle-classeur.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3513-pack-pokemon-30-ans-2-pokebox-nymphali-amphinobi-peluche.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – 2 Pokébox Nymphali & Amphinobi + Peluche 20 cm",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3513-pack-pokemon-30-ans-2-pokebox-nymphali-amphinobi-peluche.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3476-pack-pokemon-30-ans-10-mini-tins-peluche-pikachu.html": {
+        "name": "Pack Pokémon 30ᵉ Anniversaire – Display 10 Mini Tins + Peluche Pikachu 30 cm",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3476-pack-pokemon-30-ans-10-mini-tins-peluche-pikachu.html",
+        "price": "219,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3474-pokemon-duopack-ectoplasma-mimiqui-marshadow-octobre-2026-196214118985.html": {
+        "name": "Pokémon – Duopack Mimiqui Team Rocket, Ectoplasma & Marshadow – 2 Boosters – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3474-pokemon-duopack-ectoplasma-mimiqui-marshadow-octobre-2026-196214118985.html",
+        "price": "12,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3374-pokemon-30-ans-coffret-poster-album-phoenix-shield-360-toploaders.html": {
+        "name": "Coffret Poster 30e Anniversaire + Album Phoenix Shield 360 Toploaders",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3374-pokemon-30-ans-coffret-poster-album-phoenix-shield-360-toploaders.html",
+        "price": "54,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3444-pokemon-30e-anniversaire-coffret-nymphali-ex-sleeves-semi-rigides-phoenix-shield-x50.html": {
+        "name": "Pokémon 30e Anniversaire – Coffret Nymphali-ex + Sleeves Semi-Rigides Phoenix Shield x50",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3444-pokemon-30e-anniversaire-coffret-nymphali-ex-sleeves-semi-rigides-phoenix-shield-x50.html",
+        "price": "34,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3445-pokemon-30e-anniversaire-coffret-amphinobi-ex-packloader-phoenix-shield.html": {
+        "name": "Pokémon 30e Anniversaire – Coffret Amphinobi-ex + PackLoader Phoenix Shield",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3445-pokemon-30e-anniversaire-coffret-amphinobi-ex-packloader-phoenix-shield.html",
+        "price": "34,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3379-pokemon-etb-30-ans-display-chaos-ascendant.html": {
+        "name": "ETB 30e Anniversaire + Display Chaos Ascendant",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3379-pokemon-etb-30-ans-display-chaos-ascendant.html",
+        "price": "299,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3331-pokemon-pokebox-mega-melodelfe-ex-francais.html": {
+        "name": "Pokébox Méga-Mélodelfe-ex – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3331-pokemon-pokebox-mega-melodelfe-ex-francais.html",
+        "price": "27,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3233-display-pokemon-evolutions-a-paldea-francais.html": {
+        "name": "Display Pokémon Évolutions à Paldea EV02– Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3233-display-pokemon-evolutions-a-paldea-francais.html",
+        "price": "219,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/2939-coffret-premium-mega-amphinobi-ex-fr.html": {
+        "name": "Pokémon Coffret Premium Méga-Amphinobi EX FR – Collection Officielle",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/2939-coffret-premium-mega-amphinobi-ex-fr.html",
+        "price": "49,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/2978-deck-combat-de-ligue-mega-lucario-ex-fr.html": {
+        "name": "Deck Combat de Ligue Pokémon Méga-Lucario ex FR",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/2978-deck-combat-de-ligue-mega-lucario-ex-fr.html",
+        "price": "29,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/2804-coffret-premium-mega-zygarde-ex-8-boosters.html": {
+        "name": "Coffret Premium Méga Zygarde ex (8 Boosters)",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/2804-coffret-premium-mega-zygarde-ex-8-boosters.html",
+        "price": "49,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      }
+    },
+    "One Piece": {
+      "https://www.tzp.fr/one-piece/3797-display-one-piece-eb05-heroines-edition-vol2-francais-4582770059151.html": {
+        "name": "Display One Piece EB05 – Heroines Edition Vol.2 – 24 Boosters Français – Bandai",
+        "url": "https://www.tzp.fr/one-piece/3797-display-one-piece-eb05-heroines-edition-vol2-francais-4582770059151.html",
+        "price": "219,99 €",
+        "available": true,
+        "category": "One Piece"
+      }
+    }
   },
   "watched_products": {
     "etb_me06": {
@@ -275,9 +474,9 @@
       "url": "https://www.tzp.fr/precommande/3527-pokemon-me06-regne-delta-coffret-dresseur-elite-etb-francais-0196214143913.html",
       "ean": "0196214143913",
       "category": "Précommandes Pokémon",
-      "price": "Prix indisponible",
+      "price": "69,99 €",
       "available": false,
-      "add_to_cart": false,
+      "add_to_cart": true,
       "stock_known": true
     },
     "display_me06": {
@@ -285,9 +484,9 @@
       "url": "https://www.tzp.fr/precommande/3528-pokemon-me06-regne-delta-display-36-boosters-francais-0196214144613.html",
       "ean": "0196214144613",
       "category": "Précommandes Pokémon",
-      "price": "Prix indisponible",
+      "price": "229,99 €",
       "available": false,
-      "add_to_cart": false,
+      "add_to_cart": true,
       "stock_known": true
     }
   }
