@@ -266,10 +266,38 @@
   },
   "categories": {
     "Précommandes Pokémon": {
-      "https://www.tzp.fr/precommande/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html": {
-        "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
-        "url": "https://www.tzp.fr/precommande/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
+      "https://www.tzp.fr/precommande/3891-pokemon-30-ans-pack-upc-mentali-display-ev02-fr.html": {
+        "name": "Pokémon 30 Ans – UPC Mentali-ex + Display EV02 Evolutions à Paldea FR",
+        "url": "https://www.tzp.fr/precommande/3891-pokemon-30-ans-pack-upc-mentali-display-ev02-fr.html",
+        "price": "529,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3890-pokemon-30-ans-pack-upc-mentali-display-30th-chinois.html": {
+        "name": "Pokémon 30 Ans – Pack UPC Mentali-ex + Display 30th Celebration Chinois",
+        "url": "https://www.tzp.fr/precommande/3890-pokemon-30-ans-pack-upc-mentali-display-30th-chinois.html",
+        "price": "499,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3888-pack-pokemon-figurine-mewtwo-30-ans-dream-drawing-chinois.html": {
+        "name": "Pokémon Coffret Figurine Mewtwo 30 Ans + Dream Drawing 30th Chinois",
+        "url": "https://www.tzp.fr/precommande/3888-pack-pokemon-figurine-mewtwo-30-ans-dream-drawing-chinois.html",
+        "price": "89,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3877-pokemon-30-ans-pack-coffret-mewtwo-jeu-dingo.html": {
+        "name": "Pokémon 30 Ans – Coffret Figurine Mewtwo + Jeu Dingo en Boîte Métal",
+        "url": "https://www.tzp.fr/precommande/3877-pokemon-30-ans-pack-coffret-mewtwo-jeu-dingo.html",
         "price": "79,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3876-pokemon-30-ans-pack-upc-mentali-display-storm-emeralda-japonais.html": {
+        "name": "Pokémon 30 Ans – Pack UPC Mentali-ex + Display Storm Emeralda M6 Japonais",
+        "url": "https://www.tzp.fr/precommande/3876-pokemon-30-ans-pack-upc-mentali-display-storm-emeralda-japonais.html",
+        "price": "499,99 €",
         "available": true,
         "category": "Précommandes Pokémon"
       },
@@ -282,10 +310,24 @@
       }
     },
     "Pokémon en Français": {
+      "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html": {
+        "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
+        "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
       "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html": {
         "name": "Pokémon 30 Ans – Bundle 6 Boosters + 1 Jeu Dingo en Boîte Métal",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html",
         "price": "79,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3869-pokemon-30-ans-pack-upc-noctali-metamorph-pop-geante-30cm.html": {
+        "name": "Pokémon 30 Ans – UPC Noctali + Coffret Métamorph + Labyrinth connect",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3869-pokemon-30-ans-pack-upc-noctali-metamorph-pop-geante-30cm.html",
+        "price": "529,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
@@ -321,20 +363,6 @@
         "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri? ou Dobble",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
         "price": "114,99 €",
-        "available": true,
-        "category": "Pokémon en Français"
-      },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html": {
-        "name": "Pokémon Coffret Métamorph 30 Ans + Figurine Select 11 cm Aléatoire",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3776-pokemon-metamorph-30-ans-figurine-select-11cm.html",
-        "price": "119,99 €",
-        "available": true,
-        "category": "Pokémon en Français"
-      },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html": {
-        "name": "Pokémon Coffret Figurine Mew 30 Ans + Coin Set Évoli Chinois",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3770-pack-pokemon-figurine-mew-30-ans-coin-set-evoli-chinois.html",
-        "price": "79,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
@@ -429,13 +457,6 @@
         "available": true,
         "category": "Pokémon en Français"
       },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3233-display-pokemon-evolutions-a-paldea-francais.html": {
-        "name": "Display Pokémon Évolutions à Paldea EV02– Français",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3233-display-pokemon-evolutions-a-paldea-francais.html",
-        "price": "219,99 €",
-        "available": true,
-        "category": "Pokémon en Français"
-      },
       "https://www.tzp.fr/coffrets-etb-display-francais/2939-coffret-premium-mega-amphinobi-ex-fr.html": {
         "name": "Pokémon Coffret Premium Méga-Amphinobi EX FR – Collection Officielle",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/2939-coffret-premium-mega-amphinobi-ex-fr.html",
@@ -459,6 +480,13 @@
       }
     },
     "One Piece": {
+      "https://www.tzp.fr/one-piece/3892-one-piece-op18-la-domination-de-dieu-display-24-boosters-fr-4582770067408.html": {
+        "name": "One Piece OP-18 – La Domination de Dieu – Display de 24 boosters FR",
+        "url": "https://www.tzp.fr/one-piece/3892-one-piece-op18-la-domination-de-dieu-display-24-boosters-fr-4582770067408.html",
+        "price": "159,99 €",
+        "available": true,
+        "category": "One Piece"
+      },
       "https://www.tzp.fr/one-piece/3797-display-one-piece-eb05-heroines-edition-vol2-francais-4582770059151.html": {
         "name": "Display One Piece EB05 – Heroines Edition Vol.2 – 24 Boosters Français – Bandai",
         "url": "https://www.tzp.fr/one-piece/3797-display-one-piece-eb05-heroines-edition-vol2-francais-4582770059151.html",
