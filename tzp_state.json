@@ -266,6 +266,41 @@
   },
   "categories": {
     "Précommandes Pokémon": {
+      "https://www.tzp.fr/precommande/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html": {
+        "name": "Pokémon 30 Ans – Bundle 6 Boosters + 1 Jeu \"Dingo\"",
+        "url": "https://www.tzp.fr/precommande/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html",
+        "price": "69,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3898-pack-pokemon-30-ans-mini-tin-jeu-dingo.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Mini Tin 30 ans + Jeu de la gamme Dingo",
+        "url": "https://www.tzp.fr/precommande/3898-pack-pokemon-30-ans-mini-tin-jeu-dingo.html",
+        "price": "29,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3895-pokemon-30-ans-upc-mentali-4-boosters-cbb6-chinois-11-boosters-sv10-coreens.html": {
+        "name": "Pokémon 30 ans UPC Mentali + 4 boosters CBB6 chinois + 11 boosters SV10 coréens",
+        "url": "https://www.tzp.fr/precommande/3895-pokemon-30-ans-upc-mentali-4-boosters-cbb6-chinois-11-boosters-sv10-coreens.html",
+        "price": "439,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3894-pokemon-30-ans-upc-mentali-coffret-mentali-noctali-15-boosters-chinois.html": {
+        "name": "Pack Pokémon 30 ans – UPC Mentali + Coffret Mentali-ex et Noctali-ex – 15 boosters chinois",
+        "url": "https://www.tzp.fr/precommande/3894-pokemon-30-ans-upc-mentali-coffret-mentali-noctali-15-boosters-chinois.html",
+        "price": "529,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
+      "https://www.tzp.fr/precommande/3889-pokemon-30-ans-pack-upc-mentali-2-coffrets-nymphali-amphinobi-chinois.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – UPC Mentali + Coffrets Nymphali-ex et Amphinobi-ex chinois",
+        "url": "https://www.tzp.fr/precommande/3889-pokemon-30-ans-pack-upc-mentali-2-coffrets-nymphali-amphinobi-chinois.html",
+        "price": "459,99 €",
+        "available": true,
+        "category": "Précommandes Pokémon"
+      },
       "https://www.tzp.fr/precommande/3891-pokemon-30-ans-pack-upc-mentali-display-ev02-fr.html": {
         "name": "Pokémon 30 Ans – UPC Mentali-ex + Display EV02 Evolutions à Paldea FR",
         "url": "https://www.tzp.fr/precommande/3891-pokemon-30-ans-pack-upc-mentali-display-ev02-fr.html",
@@ -310,16 +345,30 @@
       }
     },
     "Pokémon en Français": {
-      "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html": {
-        "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
-        "price": "79,99 €",
+      "https://www.tzp.fr/coffrets-etb-display-francais/3899-pokemon-30-ans-metamorph-booster-csv95c-chinois.html": {
+        "name": "Pokémon 30 Ans – Coffret Premium Métamorph + Booster CSV9.5C Chinois",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3899-pokemon-30-ans-metamorph-booster-csv95c-chinois.html",
+        "price": "89,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html": {
-        "name": "Pokémon 30 Ans – Bundle 6 Boosters + 1 Jeu Dingo en Boîte Métal",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html",
+      "https://www.tzp.fr/coffrets-etb-display-francais/3897-pokemon-me06-regne-delta-display-10-kits-avant-premiere-francais.html": {
+        "name": "Pokémon ME06 Règne Delta – Display de 10 Kits d'Avant-Première – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3897-pokemon-me06-regne-delta-display-10-kits-avant-premiere-francais.html",
+        "price": "499,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3896-pokemon-30-ans-coffret-classeur-deck-ligue-mega-lucario-ex-fr.html": {
+        "name": "Pokémon 30 Ans – Coffret Classeur + Deck Combat de Ligue Méga-Lucario-ex – Français",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3896-pokemon-30-ans-coffret-classeur-deck-ligue-mega-lucario-ex-fr.html",
+        "price": "89,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html": {
+        "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
         "price": "79,99 €",
         "available": true,
         "category": "Pokémon en Français"
@@ -362,7 +411,7 @@
       "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html": {
         "name": "Pokémon Coffret Métamorph 30 Ans + Kikicri? ou Dobble",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3791-pokemon-coffret-metamorph-30-ans-kikicri.html",
-        "price": "114,99 €",
+        "price": "94,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
@@ -454,6 +503,13 @@
         "name": "Pokébox Méga-Mélodelfe-ex – Français",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3331-pokemon-pokebox-mega-melodelfe-ex-francais.html",
         "price": "27,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3248-coffret-premiers-partenaires-serie-3-fr.html": {
+        "name": "Coffret Premiers Partenaires Série 3 FR",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3248-coffret-premiers-partenaires-serie-3-fr.html",
+        "price": "29,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
