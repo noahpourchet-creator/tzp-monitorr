@@ -266,20 +266,6 @@
   },
   "categories": {
     "Précommandes Pokémon": {
-      "https://www.tzp.fr/precommande/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html": {
-        "name": "Pokémon 30 Ans – Bundle 6 Boosters + 1 Jeu \"Dingo\"",
-        "url": "https://www.tzp.fr/precommande/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html",
-        "price": "69,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3898-pack-pokemon-30-ans-mini-tin-jeu-dingo.html": {
-        "name": "Pokémon 30ᵉ Anniversaire – Mini Tin 30 ans + Jeu de la gamme Dingo",
-        "url": "https://www.tzp.fr/precommande/3898-pack-pokemon-30-ans-mini-tin-jeu-dingo.html",
-        "price": "29,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
-      },
       "https://www.tzp.fr/precommande/3891-pokemon-30-ans-pack-upc-mentali-display-ev02-fr.html": {
         "name": "Pokémon 30 Ans – UPC Mentali-ex + Display EV02 Evolutions à Paldea FR",
         "url": "https://www.tzp.fr/precommande/3891-pokemon-30-ans-pack-upc-mentali-display-ev02-fr.html",
@@ -300,26 +286,33 @@
         "price": "79,99 €",
         "available": true,
         "category": "Précommandes Pokémon"
-      },
-      "https://www.tzp.fr/precommande/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html": {
-        "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Jeu Dingo",
-        "url": "https://www.tzp.fr/precommande/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html",
-        "price": "59,99 €",
-        "available": true,
-        "category": "Précommandes Pokémon"
       }
     },
     "Pokémon en Français": {
-      "https://www.tzp.fr/coffrets-etb-display-francais/3899-pokemon-30-ans-metamorph-booster-csv95c-chinois.html": {
-        "name": "Pokémon 30 Ans – Coffret Premium Métamorph + Booster CSV9.5C Chinois",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3899-pokemon-30-ans-metamorph-booster-csv95c-chinois.html",
-        "price": "89,99 €",
+      "https://www.tzp.fr/coffrets-etb-display-francais/3898-pack-pokemon-30-ans-mini-tin-jeu-dingo.html": {
+        "name": "Pokémon 30ᵉ Anniversaire – Mini Tin 30 ans + Jeu de la gamme Dingo",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3898-pack-pokemon-30-ans-mini-tin-jeu-dingo.html",
+        "price": "29,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3896-pokemon-30-ans-coffret-classeur-deck-ligue-mega-lucario-ex-fr.html": {
-        "name": "Pokémon 30 Ans – Pack Coffret Classeur + Dream Drawing Pikachu Chinois",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3896-pokemon-30-ans-coffret-classeur-deck-ligue-mega-lucario-ex-fr.html",
+      "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html": {
+        "name": "Pokémon 30 Ans – Bundle 6 Boosters + 1 Jeu \"Dingo\"",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3875-pokemon-30-ans-bundle-6-boosters-jeu-dingo.html",
+        "price": "59,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html": {
+        "name": "Pokémon 30e Anniversaire – 2 Coffrets Autocollant Réajustable + 1 Jeu Dingo",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3341-pokemon-30e-anniversaire-2-coffrets-autocollant-reajustable.html",
+        "price": "59,99 €",
+        "available": true,
+        "category": "Pokémon en Français"
+      },
+      "https://www.tzp.fr/coffrets-etb-display-francais/3899-pokemon-30-ans-metamorph-booster-csv95c-chinois.html": {
+        "name": "Pokémon 30 Ans – Coffret Premium Métamorph + Booster CSV9.5C Chinois",
+        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3899-pokemon-30-ans-metamorph-booster-csv95c-chinois.html",
         "price": "89,99 €",
         "available": true,
         "category": "Pokémon en Français"
@@ -328,13 +321,6 @@
         "name": "2 Decks Combat Pokémon 30e Anniversaire – Mentali-ex et Noctali-ex",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3772-lot-2-decks-combat-pokemon-30-ans-mentali-noctali.html",
         "price": "79,99 €",
-        "available": true,
-        "category": "Pokémon en Français"
-      },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3869-pokemon-30-ans-pack-upc-noctali-metamorph-pop-geante-30cm.html": {
-        "name": "Pokémon 30 Ans – UPC Noctali + Coffret Métamorph + Labyrinth connect",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3869-pokemon-30-ans-pack-upc-noctali-metamorph-pop-geante-30cm.html",
-        "price": "529,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
@@ -398,13 +384,6 @@
         "name": "Pack Pokémon 30ᵉ Anniversaire – Collection Classeur + Peluche Pokémon 30 cm Aléatoire",
         "url": "https://www.tzp.fr/coffrets-etb-display-francais/3514-pack-pokemon-30-ans-collection-classeur-peluche-30-cm.html",
         "price": "89,99 €",
-        "available": true,
-        "category": "Pokémon en Français"
-      },
-      "https://www.tzp.fr/coffrets-etb-display-francais/3561-pack-pokemon-30-ans-bundle-classeur.html": {
-        "name": "Pack Pokémon 30ᵉ Anniversaire – Bundle 6 Boosters + Classeur A5 Pokémon Aléatoire",
-        "url": "https://www.tzp.fr/coffrets-etb-display-francais/3561-pack-pokemon-30-ans-bundle-classeur.html",
-        "price": "79,99 €",
         "available": true,
         "category": "Pokémon en Français"
       },
@@ -483,7 +462,7 @@
       "https://www.tzp.fr/one-piece/3797-display-one-piece-eb05-heroines-edition-vol2-francais-4582770059151.html": {
         "name": "Display One Piece EB05 – Heroines Edition Vol.2 – 24 Boosters Français – Bandai",
         "url": "https://www.tzp.fr/one-piece/3797-display-one-piece-eb05-heroines-edition-vol2-francais-4582770059151.html",
-        "price": "219,99 €",
+        "price": "159,99 €",
         "available": true,
         "category": "One Piece"
       }
